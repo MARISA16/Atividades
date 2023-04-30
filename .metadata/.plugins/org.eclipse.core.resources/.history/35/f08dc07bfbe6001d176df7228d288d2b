@@ -1,0 +1,12 @@
+package LojaJogo;
+
+public class Online_jogo extends LojaJogo {
+
+	public Online_jogo(int catalojo) {
+		super(catalojo);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

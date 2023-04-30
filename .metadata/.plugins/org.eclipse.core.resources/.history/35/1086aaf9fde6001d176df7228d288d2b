@@ -1,0 +1,71 @@
+package LojaJogo;
+
+public class Online_jogo extends LojaJogo {
+
+	
+		public Online_jogo(int catalojo) {
+		super(catalojo);
+		
+	}
+	
+		 public String jogo;
+			public float preço;
+			public String controle;
+			public String console;
+
+		
+		public void catalogo(int catelogo,String jogo,float preço,String controle,String console) {
+		this.jogo =jogo;
+		this.preço =preço;
+		this.controle = controle;
+		this.console = console;
+			
+		}
+			
+		
+		
+	public String getJogo() {
+			return jogo;
+		}
+
+		public void setJogo(String jogo) {
+			this.jogo = jogo;
+		}
+
+		public float getPreço() {
+			return preço;
+		}
+
+		public void setPreço(float preço) {
+			this.preço = preço;
+		}
+
+		public String getControle() {
+			return controle;
+		}
+
+		public void setControle(String controle) {
+			this.controle = controle;
+		}
+
+		public String getConsole() {
+			return console;
+		}
+
+		public void setConsole(String console) {
+			this.console = console;
+		}
+		
+		@Override
+		public void visualizar() {
+			System.out.println("Qual o nome do jogo" + this.jogo);
+			 System.out.println("O preço é: " + this.preço);
+			 System.out.println("Quantidade de controles " + this.controle);
+			 System.out.println("Modelo do Console" + this.console);
+
+		}
+}
+
+	
+
+

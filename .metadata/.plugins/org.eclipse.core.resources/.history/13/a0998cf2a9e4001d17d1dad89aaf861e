@@ -1,0 +1,37 @@
+package atividades_estrutura;
+
+import java.util.Scanner;
+// 2. Faça um sistema que leia a idade de uma pessoa expressa em anos, meses e dias e mostre-a expressa apenas em dias.
+
+public class Exercicios2 {
+	
+			
+			public static void main(String[] args) {
+				
+				Scanner entrada = new Scanner(System.in);
+				
+				int dia, mes, ano,idade;
+				
+							
+				System.out.println("Informe seu  dia  que  nasceu: ");
+				dia = entrada.nextInt();
+				
+				System.out.println("Informe  mês do seu nascimento: ");
+				mes = entrada.nextInt();
+				
+				System.out.println("Informe seu  ano  de  nascimento: ");
+				ano = entrada.nextInt();
+						
+				ano = (1994 - ano) * 365;
+				mes = (8 - mes) * 12;
+				idade = ano + mes + dia;
+			
+				System.out.println("Você tem " + idade + " dias");
+				
+				entrada.close();
+				
+			}
+		}
+
+
+

@@ -1,0 +1,8 @@
+INDEX VERSION 1.132+C:\Users\Marisa\Documents\Marisa\Reprograma\AfroTech\.metadata\.plugins\org.eclipse.jdt.core
+1907197057.index
+3865310033.index
+1435210050.index
+249094878.index
+1865797976.index
+3147923639.index
+3413725848.index

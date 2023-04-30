@@ -1,0 +1,17 @@
+package LojaJogo;
+
+public class Tabuleiro extends Online_jogo {
+
+	public Tabuleiro(int catalojo) {
+		super(catalojo);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	 public String jogo;
+	public float preço;
+	public String controle;
+	public String console;
+	public int peças;
+
+}

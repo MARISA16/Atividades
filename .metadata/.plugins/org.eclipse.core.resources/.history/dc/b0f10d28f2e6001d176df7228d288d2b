@@ -1,0 +1,58 @@
+package atividades_estrutura;
+
+import java.util.Scanner;
+
+//4. Construa um programa em que, tendo como dados de entrada dois pontos
+//quaisquer no plano, P(x1, y1) e P(x2, y2), escreva a distância entre eles. A fórmulaque efetua tal cálculo é:
+
+//Resolução4
+
+public class ProgramaDadosEntrada {
+	
+	
+	
+public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		float x1 = 0, y1 = 0, x2 = 0, y2 = 0, d;
+					
+		System.out.println("Digite o : ");
+		int Scanner = entrada.nextInt();
+		
+
+		System.out.printf("Digite o primeiro ponto: ");
+		System.out.printf("Digite o segundo ponto: ");
+		System.out.printf("Digite o terceiro ponto: ");
+		System.out.printf("Digite o quarto ponto: ");
+		
+		d = sqrt(pow((x2 - x1),2) + pow((y2 - y1),2));
+
+		printf("Distância entre os pontos A(%.2f, %.2f) e B(%.2f, %.2f) é %.2f", x1, y1, x2, y2, d);
+
+	
+		
+		
+	}
+
+private static float sqrt(int i) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+private static int pow(float f, int i) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+
+private static void printf(String string, float d, float d2, float d3, float d4, float d5) {
+	// TODO Auto-generated method stub
+	
+}
+	
+
+
+	}
+	
+
+

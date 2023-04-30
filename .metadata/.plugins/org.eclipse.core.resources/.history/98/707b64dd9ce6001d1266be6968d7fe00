@@ -1,0 +1,61 @@
+package ExerciciosArrays;
+
+
+import java.util.Scanner;
+
+//Escreve um programa que lê duas matrizes N1 (4,6) e N2(4,6) e cria:
+//a) Uma matriz M1 cujos elementos serão as somas dos elementos de mesma posição das matrizes N1 e N2;
+//b) Uma matriz M2 cujos elementos são as diferenças dos elementos de mesma posição das matrizes N1 e N2.
+
+public class ProgramaMatriz_3 {
+	
+
+		public static void main(String[] args) {
+
+			Scanner ler = new Scanner(System.in);
+
+			int [][] N1 = new int [4][6];
+			int [][] N2 = new int [4][6];
+			int [][] M1 = new int [4][6];
+			int [][] M2 = new int [4][6];
+
+			for(int l = 0; l < 4; l++) {
+				for(int a = 0; a < 6; a++) {
+					System.out.println("Informe um valor para coluna " + (a+1) + " e linha " + (l+1) + " : ");
+					N1[l][a] = ler.nextInt();
+				}
+			}
+			for(int l = 0; l < 4; l++) {
+				for(int a = 0; a < 6; a++) {
+					System.out.println("Informe um valor para coluna " + (a+1) + " e linha " + (l+1) + " : ");
+					N2[l][a] = ler.nextInt();
+				}
+			}
+
+			for(int l = 0; l < 4; l++) {
+				for(int a = 0; a < 6; a++) {
+					M1[l][a] = N1[l][a] + N2[l][a];
+					M2[l][a] = N1[l][a] - N2[l][a];
+				}
+			}
+
+			System.out.println("A soma das matrizes");
+			for(int l = 0; l < 4; l++) {
+				for(int a = 0; a < 6; a++) {
+					System.out.printf(M1[l][a] + " ,");
+				}
+				System.out.println(" ");
+			}
+			System.out.println("A diferença das matrizes");
+			for(int l = 0; l < 4; l++) {
+				for(int a = 0; a < 6; a++) {
+					System.out.printf(M2[l][a] + " ,");
+				}
+				System.out.println(" ");
+			}
+			ler.close();
+	
+		}
+	}
+
+

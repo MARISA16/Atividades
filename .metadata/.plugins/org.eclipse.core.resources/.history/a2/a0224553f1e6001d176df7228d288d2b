@@ -1,0 +1,16 @@
+package Poo;
+
+class Cliente {
+    
+
+	public static void main(String[] args) {
+	       ArrayList<String> Cliente = new ArrayList<>();
+	       Cliente.nome.add("Joao"); 
+
+   
+
+}
+
+
+
+    

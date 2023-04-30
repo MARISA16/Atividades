@@ -1,0 +1,45 @@
+package Banco;
+
+
+import java.util.Scanner;
+
+
+public class Conta {
+	
+	public static void main(String[] args) {
+		
+		Scanner digitado = new Scanner(System.in);
+		
+		String nome;
+		int conta;
+		int saques;
+		double sacar;
+		 saldo;
+		
+		public  Conta(String nome, int conta, double saldo) {
+			this.nome=nome;
+			this.conta=conta;
+			this.saldo=saldo;
+			saques=0;
+		
+		}
+		
+//		public void extrato() {
+//			System.out.println("Extrato");
+//			System.out.println("nome :"  +this.nome);
+//			System.out.println("numero da conta :" + this.conta);
+//			System.out.println("saldo atual :"  + this.saldo);
+//			System.out.println("aque realizado hoje:" + this.saques);
+//		}
+//		
+//		publicvvoid sacar(double valor) {
+//			if(saldo>=valor) {
+//				saldo = valor;
+//				saques++;
+//				V +this.nome
+//			}
+//		}
+		
+//	}
+
+}

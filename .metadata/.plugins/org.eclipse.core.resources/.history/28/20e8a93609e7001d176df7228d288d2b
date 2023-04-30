@@ -1,0 +1,60 @@
+package LojaJogo;
+
+public class Tabuleiro extends Online_jogo {
+
+	public Tabuleiro(int catalogo, String string, double d, int i, String string2, String string3, double e, int j) {
+		super(catalogo);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	 public  String jogo;
+	public  float precos;
+	public String controle;
+	public  String console;
+	public int pecas;
+	
+	public void Online_jogo(int catelogo,String jogo,float precos,String controle,String console,int pecas) {
+		
+		this.jogo =jogo;
+		this.precos =precos;
+		this.controle = controle;
+		this.console = console;
+		this.pecas =pecas;
+			
+
+}
+
+	public String getJogo() {
+		return jogo;
+	}
+
+	public void setJogo(String jogo) {
+		this.jogo = jogo;
+	}
+
+	public float getPrecos() {
+		return precos;
+	}
+
+	public void setPrecos(float precos) {
+		this.precos = precos;
+	}
+
+	public int getPecas() {
+		return pecas;
+	}
+
+	public void setPecas(int pecas) {
+		this.pecas = pecas;
+	}
+	
+	@Override
+	public void visualizar() {
+		System.out.println("Qual o nome do jogo" + this.jogo);
+		 System.out.println("O preço é: " + this.precos);
+		 System.out.println("Quantidade de preços " + this.pecas);
+		 
+
+	}
+}

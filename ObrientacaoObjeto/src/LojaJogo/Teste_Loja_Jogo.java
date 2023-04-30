@@ -1,0 +1,10 @@
+package LojaJogo;
+
+public class Teste_Loja_Jogo {
+	public static  void  main(String[] args) {
+		Tabuleiro jog1 = new Tabuleiro(1,"Super Mario", 230.00, 2, "PC", "Banco Imobiliário", 200.00, 30);
+		
+		jog1.visualizar();
+	}
+
+}
