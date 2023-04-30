@@ -1065,3 +1065,8 @@ java.lang.Exception: File not found: C:\Users\Marisa\Documents\Marisa\Reprograma
 !MESSAGE Save operation warnings.
 !SUBENTRY 1 org.eclipse.core.resources 2 234 2023-04-30 16:50:15.057
 !MESSAGE The project description file (.project) for 'AulaJava1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 2 2023-04-30 16:55:15.329
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2023-04-30 16:55:15.329
+!MESSAGE The project description file (.project) for 'AulaJava1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
